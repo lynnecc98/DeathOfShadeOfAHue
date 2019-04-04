@@ -1,0 +1,159 @@
+{"frames": {
+
+"jellyfishAnimation-0.png":
+{
+	"frame": {"x":1,"y":1,"w":310,"h":510},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":310,"h":510},
+	"sourceSize": {"w":310,"h":510}
+},
+"jellyfishAnimation-1.png":
+{
+	"frame": {"x":513,"y":1,"w":310,"h":510},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":310,"h":510},
+	"sourceSize": {"w":310,"h":510}
+},
+"jellyfishAnimation-2.png":
+{
+	"frame": {"x":513,"y":937,"w":310,"h":510},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":310,"h":510},
+	"sourceSize": {"w":310,"h":510}
+},
+"jellyfishAnimation-3.png":
+{
+	"frame": {"x":1025,"y":937,"w":310,"h":510},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":310,"h":510},
+	"sourceSize": {"w":310,"h":510}
+},
+"jellyfishAnimation-4.png":
+{
+	"frame": {"x":1,"y":1249,"w":310,"h":510},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":310,"h":510},
+	"sourceSize": {"w":310,"h":510}
+},
+"jellyfishAnimation-5.png":
+{
+	"frame": {"x":513,"y":1249,"w":310,"h":510},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":310,"h":510},
+	"sourceSize": {"w":310,"h":510}
+},
+"jellyfishAnimation-6.png":
+{
+	"frame": {"x":1025,"y":1249,"w":310,"h":510},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":310,"h":510},
+	"sourceSize": {"w":310,"h":510}
+},
+"jellyfishAnimation-7.png":
+{
+	"frame": {"x":1,"y":1561,"w":310,"h":510},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":310,"h":510},
+	"sourceSize": {"w":310,"h":510}
+},
+"jellyfishAnimation-8.png":
+{
+	"frame": {"x":513,"y":1561,"w":310,"h":510},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":310,"h":510},
+	"sourceSize": {"w":310,"h":510}
+},
+"jellyfishAnimation-9.png":
+{
+	"frame": {"x":1025,"y":1561,"w":310,"h":510},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":310,"h":510},
+	"sourceSize": {"w":310,"h":510}
+},
+"jellyfishAnimation-10.png":
+{
+	"frame": {"x":1025,"y":1,"w":310,"h":510},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":310,"h":510},
+	"sourceSize": {"w":310,"h":510}
+},
+"jellyfishAnimation-11.png":
+{
+	"frame": {"x":1,"y":313,"w":310,"h":510},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":310,"h":510},
+	"sourceSize": {"w":310,"h":510}
+},
+"jellyfishAnimation-12.png":
+{
+	"frame": {"x":513,"y":313,"w":310,"h":510},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":310,"h":510},
+	"sourceSize": {"w":310,"h":510}
+},
+"jellyfishAnimation-13.png":
+{
+	"frame": {"x":1025,"y":313,"w":310,"h":510},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":310,"h":510},
+	"sourceSize": {"w":310,"h":510}
+},
+"jellyfishAnimation-14.png":
+{
+	"frame": {"x":1,"y":625,"w":310,"h":510},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":310,"h":510},
+	"sourceSize": {"w":310,"h":510}
+},
+"jellyfishAnimation-15.png":
+{
+	"frame": {"x":513,"y":625,"w":310,"h":510},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":310,"h":510},
+	"sourceSize": {"w":310,"h":510}
+},
+"jellyfishAnimation-16.png":
+{
+	"frame": {"x":1025,"y":625,"w":310,"h":510},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":310,"h":510},
+	"sourceSize": {"w":310,"h":510}
+},
+"jellyfishAnimation-17.png":
+{
+	"frame": {"x":1,"y":937,"w":310,"h":510},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":310,"h":510},
+	"sourceSize": {"w":310,"h":510}
+}},
+"animations": {
+	"jellyfishAnimation": ["jellyfishAnimation-0.png","jellyfishAnimation-1.png","jellyfishAnimation-2.png","jellyfishAnimation-3.png","jellyfishAnimation-4.png","jellyfishAnimation-5.png","jellyfishAnimation-6.png","jellyfishAnimation-7.png","jellyfishAnimation-8.png","jellyfishAnimation-9.png","jellyfishAnimation-10.png","jellyfishAnimation-11.png","jellyfishAnimation-12.png","jellyfishAnimation-13.png","jellyfishAnimation-14.png","jellyfishAnimation-15.png","jellyfishAnimation-16.png","jellyfishAnimation-17.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "jellyfishAnimationSpritesheet.png",
+	"format": "RGBA8888",
+	"size": {"w":1536,"h":1872},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:85f06173266747257e1d01bc915e2162:c624d6b101b76bbfe9a7a302486d55ca:66a7b9fa67d1fbb9f31d1ab20cbe10ca$"
+}
+}

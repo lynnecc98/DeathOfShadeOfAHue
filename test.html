@@ -19,29 +19,42 @@
   
   //Create a Pixi Application
   let app = new Application({ 
-    width: 512, 
-    height: 512,                       
+    width: window.innerWidth, 
+    height: window.innerHeight,                       
     antialias: true, 
     transparent: false, 
     resolution: 1
     }
   );
-
+  
   //Add the canvas that Pixi automatically created for you to the HTML document
   document.body.appendChild(app.view);
+  
+  var renderer = PIXI.autoDetectRenderer(800,600);
+  document.body.appendChild(renderer.view);
+  
 
   //load an image and run the `setup` function when it's done
   PIXI.loader
+    .add("images/jellyfishAnimationSpritesheet.json")
+    .add("images/watercolor_bg.png")
     .add("images/spritesheet.json")
     .load(setup);
 
   let background, heart, jelly, state, message;
 
-  function setup() {
+  function setup() {    
     id = PIXI.loader.resources["images/spritesheet.json"].textures;
 
-    background = new Sprite(id["watercolor_bg.png"]);
-    app.stage.addChild(background);
+//    background = new Sprite(PIXI.loader.resources["images/watercolor_bg.png"].texture);
+//    background.texture.width = window.innerWidth;
+//    background.texture.height = window.innerHeight;
+//    background.scale.set(1.5);
+    
+    backgroundTexture = PIXI.Texture.fromImage("images/watercolor.png");
+    var backgroundTile = new PIXI.extras.TilingSprite(backgroundTexture, renderer.width, renderer.height)
+    app.stage.addChild(backgroundTile);
+    
 
     heart = new Sprite(id["heart.png"]);
     heart.width = 16;
@@ -53,14 +66,34 @@
     message = new PIXI.Text("Hello Pixi!");
     app.stage.addChild(message);
     message.position.set(54, 96);
+    
+    // create an array of textures from an image path
+    var frames = [];
 
-    jelly = new Sprite(id["jellyfish.png"]);
-    jelly.y = app.stage.height / 2 - jelly.height / 2;
-    jelly.x = 40;
+    for (var val = 0; val <= 17; val++) {
+
+        // magically works since the spritesheet was loaded with the pixi loader
+        frames.push(PIXI.Texture.fromFrame('jellyfishAnimation-' + val + '.png'));
+    }
+
+    // create an AnimatedSprite (brings back memories from the days of Flash, right ?)
+    jelly = new PIXI.extras.AnimatedSprite(frames);
+
+    /*
+     * An AnimatedSprite inherits all the properties of a PIXI sprite
+     * so you can change its position, its anchor, mask it, etc
+     */
+    jelly.x = app.screen.width / 2;
+    jelly.y = app.screen.height / 2;
     jelly.vx = 0;
     jelly.vy = 0;
+    jelly.anchor.set(0.5);
+    jelly.scale.set(0.5);
+    jelly.animationSpeed = 0.1;
+    jelly.play();
+    
     app.stage.addChild(jelly);
-
+    
     //Capture the keyboard arrow keys
     let left = keyboard("ArrowLeft"),
         up = keyboard("ArrowUp"),
@@ -114,15 +147,15 @@
     };
 
     //Set the game state
-    state = play;
+    state = move;
     app.ticker.add(delta => gameLoop(delta));
   }
-  
+
   function gameLoop(delta) {
     state(delta);
   }
   
-  function play(delta) {
+  function move(delta) {    
     jelly.x += jelly.vx;
     jelly.y += jelly.vy;
     
