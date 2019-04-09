@@ -17,5 +17,6 @@ public class CutsceneAnimationController : MonoBehaviour
     void EnablePlayerControls()
     {
         pMove.controlsEnabled = true;
+        anim.SetTrigger("StayOnPlayer");
     }
 }

@@ -15,7 +15,7 @@ public class MusicHandling : MonoBehaviour
     public AudioMixerSnapshot secondSnap;
 
     public GameObject player;
-    public PlayerMovement pMove;
+    
 
     public Animator camAnim;
 
@@ -23,7 +23,6 @@ public class MusicHandling : MonoBehaviour
     void Start()
     {
         camAnim.SetTrigger("GoToIdle");
-        pMove = player.GetComponent<PlayerMovement>();
         Debug.Log("1");
         StartCoroutine(PlaySounds());
 
@@ -44,10 +43,7 @@ public class MusicHandling : MonoBehaviour
         {
             Debug.Log(first.time);
         }
-        if (first.time >= 70f && first.time <= 73f)
-        {
-            pMove.controlsEnabled = true;
-        }
+       
         if (first.time >= 67f && first.time <= 67.2f)
         {
             camAnim.SetTrigger("PanDown");
