@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\CutsceneAnimationController.cs" />
+    <Compile Include="Assets\InstructTextAnimation.cs" />
     <Compile Include="Assets\MusicHandling.cs" />
     <Compile Include="Assets\PlayerListener.cs" />
     <Compile Include="Assets\PlayerMovement.cs" />
@@ -72,6 +73,7 @@
     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
+    <Compile Include="Assets\VideoScript.cs" />
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/Paige/Documents/GitHub/DeathOfShadeOfAHue/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
