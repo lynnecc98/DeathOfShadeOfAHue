@@ -15,6 +15,8 @@ public class MusicHandling : MonoBehaviour
     public AudioMixerSnapshot secondSnap;
 
     public GameObject player;
+
+    public bool panningDown;
     
 
     public Animator camAnim;
@@ -24,6 +26,7 @@ public class MusicHandling : MonoBehaviour
     {
         camAnim.SetTrigger("GoToIdle");
         Debug.Log("1");
+        panningDown = false;
         StartCoroutine(PlaySounds());
 
         
@@ -47,6 +50,7 @@ public class MusicHandling : MonoBehaviour
         if (first.time >= 67f && first.time <= 67.2f)
         {
             camAnim.SetTrigger("PanDown");
+            panningDown = true;
         }
 
     }
