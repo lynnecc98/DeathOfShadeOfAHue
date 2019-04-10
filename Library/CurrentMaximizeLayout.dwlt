@@ -21,10 +21,10 @@ MonoBehaviour:
     y: 30
     width: 1280
     height: 590
-  m_MinSize: {x: 613, y: 498}
-  m_MaxSize: {x: 18008, y: 14048}
+  m_MinSize: {x: 613, y: 474}
+  m_MaxSize: {x: 18008, y: 14024}
   vertical: 0
-  controlID: 10787
+  controlID: 11520
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -126,10 +126,10 @@ MonoBehaviour:
     y: 0
     width: 757
     height: 590
-  m_MinSize: {x: 336, y: 498}
-  m_MaxSize: {x: 14006, y: 14048}
+  m_MinSize: {x: 336, y: 474}
+  m_MaxSize: {x: 14006, y: 14024}
   vertical: 1
-  controlID: 10788
+  controlID: 11521
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -149,8 +149,8 @@ MonoBehaviour:
     y: 0
     width: 757
     height: 224
-  m_MinSize: {x: 202, y: 224}
-  m_MaxSize: {x: 4002, y: 4024}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 5}
   m_Panes:
   - {fileID: 5}
@@ -188,9 +188,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 368.85, y: 120.92999, z: 0}
+    m_Target: {x: 280.3318, y: 156.1349, z: -0.7489733}
     speed: 2
-    m_Value: {x: 368.85, y: 120.92999, z: 0}
+    m_Value: {x: 280.3318, y: 156.1349, z: -0.7489733}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -222,9 +222,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 233.34525
+    m_Target: 99.06793
     speed: 2
-    m_Value: 233.34525
+    m_Value: 99.06793
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -286,7 +286,7 @@ MonoBehaviour:
   m_MinSize: {x: 336, y: 274}
   m_MaxSize: {x: 14006, y: 10024}
   vertical: 0
-  controlID: 10789
+  controlID: 11522
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -434,19 +434,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Video
+    - Assets/Sprites0
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Video
+  - Assets/Sprites0
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Paige\Documents\GitHub\DeathOfShadeOfAHue
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 199}
-    m_SelectedIDs: a0440000
-    m_LastClickedID: 17568
+    scrollPos: {x: 0, y: 26.518114}
+    m_SelectedIDs: e6110000
+    m_LastClickedID: 4582
     m_ExpandedIDs: 00000000300b0000b80d0000b00f0000e611000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -500,10 +500,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: dca7feff
-    m_LastClickedInstanceID: -88100
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c62300005c2b0000f4670000f433ffff4e5500008e390000ca1200003c3500001c1f00005a1e0000c61c00006c1f000062c500008a390000b459000058520000622700003427000022240000ce1e00003024000058200400d8280000f067000012280000549d00002a1f00007c0e0000dc260000d62300001e280000aa750000180c0000409d00007e4f00007a270000bc2200000e1d00007a750000300e0000f25600000a6a0000382f0100e2210000340f000040250000420c0000fc580000967b0000ca1d0000320d0000302500004c2801007272010048270000f2810300fa81030068280000c0280000d01f000000000000d4fe0300e82800008ec30100c08b02007cf60200c024000080f6020014280000f8520000e48c02004a210000c6220000887200001e4c0100be400000a07b000042790000ce430000
+    m_ExpandedInstanceIDs: c62300005c2b0000f4670000f433ffff4e5500008e390000ca1200003c3500001c1f00005a1e0000c61c00006c1f000062c500008a390000b459000058520000622700003427000022240000ce1e00003024000058200400d8280000f067000012280000549d00002a1f00007c0e0000dc260000d62300001e280000aa750000180c0000409d00007e4f00007a270000bc2200000e1d00007a750000300e0000f25600000a6a0000382f0100e2210000340f000040250000420c0000fc580000967b0000ca1d0000320d0000302500004c2801007272010048270000f2810300fa81030068280000c0280000d01f000000000000d4fe0300e82800008ec30100c08b02007cf60200c024000080f6020014280000f8520000e48c02004a210000c6220000887200001e4c0100be400000a07b000042790000ce4300001e4c0000024c0000ea5500009e510000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -527,7 +527,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 482.66806}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 110
 --- !u!114 &12
@@ -745,6 +745,7 @@ MonoBehaviour:
     - {fileID: 1107886029291554454, guid: 4f12ddeca3fc3f8428dc0a1c74c5cc2a, type: 2}
     - {fileID: 1107087006897257940, guid: 4664d7113c85c9b4da0e52fc1125c681, type: 2}
     - {fileID: 1107331013875803118, guid: 2ac3e58bf7ebf4d489d56e2dfd95ab6d, type: 2}
+    - {fileID: 1107870879689145312, guid: ef185a15fd482204794ad33ca7f1faca, type: 2}
     m_ValueSerializationHelper:
     - e00: 0.654599
       e01: 0
@@ -826,11 +827,27 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 2ac3e58bf7ebf4d489d56e2dfd95ab6d,
+  m_AnimatorController: {fileID: 9100000, guid: ef185a15fd482204794ad33ca7f1faca,
     type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 1107331013875803118, guid: 2ac3e58bf7ebf4d489d56e2dfd95ab6d,
+  - m_Target: {fileID: 1107870879689145312, guid: ef185a15fd482204794ad33ca7f1faca,
       type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
