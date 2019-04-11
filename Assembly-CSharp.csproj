@@ -61,9 +61,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Collectible.cs" />
+    <Compile Include="Assets\CollectibleSpawning.cs" />
     <Compile Include="Assets\CutsceneAnimationController.cs" />
+    <Compile Include="Assets\GiveRandomColor.cs" />
     <Compile Include="Assets\InHerBereavement.cs" />
     <Compile Include="Assets\InstructTextAnimation.cs" />
+    <Compile Include="Assets\Jellies.cs" />
     <Compile Include="Assets\MusicHandling.cs" />
     <Compile Include="Assets\PlayerListener.cs" />
     <Compile Include="Assets\PlayerMovement.cs" />

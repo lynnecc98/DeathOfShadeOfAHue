@@ -37,7 +37,7 @@ public class MusicHandling : MonoBehaviour
         first.Play();
         Debug.Log("should play");
         yield return new WaitForSeconds(first.clip.length);
-        secondSnap.TransitionTo(6f);
+        secondSnap.TransitionTo(3f);
     }
     // Update is called once per frame
     void Update()

@@ -8,6 +8,8 @@ public class InHerBereavement : MonoBehaviour
     public AudioSource clip1;
     Animator anim;
     Image sprite;
+    public GameObject npc;
+    Jellies jellies;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +17,7 @@ public class InHerBereavement : MonoBehaviour
         anim = GetComponent<Animator>();
         anim.enabled = false;
         sprite.enabled = false;
+        jellies = npc.GetComponent<Jellies>();
 
     }
 
@@ -33,5 +36,9 @@ public class InHerBereavement : MonoBehaviour
     {
         anim.enabled = false;
         sprite.enabled = false;
+    }
+    void ChangeColor()
+    {
+        jellies.changeNow = true;
     }
 }
