@@ -15,7 +15,7 @@ public class Collectible : MonoBehaviour
         imActive = false;
         fallen = false;
         GetComponent<SpriteRenderer>().enabled = false;
-        point = Random.Range(1f, 7.3f);
+        point = Random.Range(-2f, 7.3f);
         Debug.Log("point is " + point);
         mH = music.GetComponent<MusicHandling>();
     }
@@ -43,7 +43,7 @@ public class Collectible : MonoBehaviour
         {
             Debug.Log("snatched");
             Destroy(gameObject);
-            //col.GetComponent<NewMove>().hasBoost = true;
+            
         }
     }
 }

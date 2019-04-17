@@ -70,6 +70,7 @@
     <Compile Include="Assets\MusicHandling.cs" />
     <Compile Include="Assets\PlayerListener.cs" />
     <Compile Include="Assets\PlayerMovement.cs" />
+    <Compile Include="Assets\RainyCollectible.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
@@ -78,6 +79,8 @@
     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
+    <Compile Include="Assets\Spawning.cs" />
+    <Compile Include="Assets\Timer.cs" />
     <Compile Include="Assets\VideoScript.cs" />
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
