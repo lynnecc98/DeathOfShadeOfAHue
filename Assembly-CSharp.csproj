@@ -72,6 +72,9 @@
     <Compile Include="Assets\MusicHandling.cs" />
     <Compile Include="Assets\PlayerListener.cs" />
     <Compile Include="Assets\PlayerMovement.cs" />
+<<<<<<< HEAD
+>>>>>>> parent of 5b97659... adsa
+=======
 >>>>>>> parent of 5b97659... adsa
     <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
@@ -81,6 +84,7 @@
     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
+<<<<<<< HEAD
 <<<<<<< HEAD
     <Compile Include="Assets\Scripts\About.cs" />
     <Compile Include="Assets\Scripts\BackToMenu.cs" />
@@ -97,6 +101,8 @@
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\VideoScript.cs" />
 =======
+=======
+>>>>>>> parent of 5b97659... adsa
     <Compile Include="Assets\VideoScript.cs" />
 >>>>>>> parent of 5b97659... adsa
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
